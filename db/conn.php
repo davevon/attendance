@@ -1,9 +1,19 @@
 <?php 
-$host ='127.0.0.1';
-$db ='attendance_db';
-$user ='root';
-$pass ='';
+// Development Connections
+// $host ='127.0.0.1';
+// $db ='attendance_db';
+// $user ='root';
+// $pass ='';
+// $charset ='utf8mb4';
+
+//remote database connections 
+$host ='sql5.freesqldatabase.com';
+$db ='sql5522172';
+$user ='sql5522172';
+$pass ='kuSISH2cNl';
 $charset ='utf8mb4';
+
+
 
 $dsn ="mysql:host=$host;dbname=$db;charset=$charset";
 
