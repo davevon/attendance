@@ -26,7 +26,7 @@
     </div>
     <div class="form-group">
       <label for="dob">date Of birth</label>
-      <input require type="text" class="form-control" id="dob" name="dob" >
+      <input type="date" class="form-control" id="dob" name="dob" >
     </div>
 
     <div class="form-group">
@@ -54,4 +54,3 @@
 
   </form>
 
-      <?php require_once 'includes/footer.php'; ?>

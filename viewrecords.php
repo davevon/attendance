@@ -3,7 +3,8 @@
   use LDAP\Result;
 
   $title = 'View Records'; ?>
-  <?php require_once 'includes/header.php'; 
+  <?php require_once 'includes/header.php';
+  require_once 'includes/auth_check.php';
   require_once 'db/conn.php';
   $results =$crud->getAttendees();
   ?>
