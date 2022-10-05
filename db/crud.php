@@ -21,7 +21,7 @@ $stmt->bindparam(':dob',$dob);
 $stmt->bindparam(':email',$email);
 $stmt->bindparam(':contact',$contact);
 $stmt->bindparam(':specialty',$specialty);
-            $stmt->bindparam(':avatar_path', $avatar_path);
+            $stmt->bindparam(':avatar_path',$avatar_path);
 
 $stmt->execute();   
 return true;
