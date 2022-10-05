@@ -24,7 +24,7 @@ include_once 'includes/session.php'?>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-container" id="navbarNav">
+  <div class="collapse navbar-collapse" id="navbarNav">
     <div class="navbar-nav mr-auto">
       <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
        <a class="nav-item nav-link" href="viewrecords.php">View Attendees</a>
