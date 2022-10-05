@@ -8,10 +8,10 @@
      $this->db = $conn;
     }
 
-    public function insertAttendees($fname, $lname, $dob, $email, $contact, $specialty){
+    public function insertAttendees($fname, $lname, $dob, $email, $contact, $specialty,$avatar_path){
         try {
             // define the sql statemen for execution
-            $sql = "INSERT INTO attendee (firstname,lastname,dateofbirth,emailaddress,contactnumber,specialty_id) Values (:fname, :lname, :dob, :email, :contact, :specialty)";
+            $sql = "INSERT INTO attendee (firstname,lastname,dateofbirth,emailaddress,contactnumber,specialty_id,avatar_path) Values (:fname, :lname, :dob, :email, :contact, :specialty,:avatar_path)";
 $stmt =$this->db->prepare($sql);
 //bind all the placeholders to the actual calues
 
@@ -21,6 +21,7 @@ $stmt->bindparam(':dob',$dob);
 $stmt->bindparam(':email',$email);
 $stmt->bindparam(':contact',$contact);
 $stmt->bindparam(':specialty',$specialty);
+            $stmt->bindparam(':avatar_path', $avatar_path);
 
 $stmt->execute();   
 return true;
