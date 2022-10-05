@@ -59,3 +59,5 @@
     <button type="submit" class="btn btn-primary btn-block" name="submit">Submit</button>
 
   </form>
+
+  <?php require_once 'includes/footer.php'; ?>
