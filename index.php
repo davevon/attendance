@@ -25,7 +25,7 @@
       <input require type="text" class="form-control" id="lastname" name="lastname">
     </div>
     <div class="form-group">
-      <label for="dob">date Of birth</label>
+      <label for="dob">Date Of Birth</label>
       <input type="text" class="form-control" id="dob" name="dob">
     </div>
 
@@ -48,7 +48,7 @@
       <input require type="text" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp">
       <small id="phoneHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
     </div>
-<br>
+    <br>
     <div class="custom-file">
       <input type="file" accept="image/*" class="custom-file-input" id="avatar" name="avatar">
       <label class="custom-file-label" for="avatar">Choose File</label>
