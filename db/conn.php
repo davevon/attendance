@@ -7,10 +7,10 @@
 // $charset ='utf8mb4';
 
 //remote database connections 
-$host ='sql5.freesqldatabase.com';
-$db ='sql5522172';
-$user ='sql5522172';
-$pass ='kuSISH2cNl';
+$host = 'sql5.freemysqlhosting.net';
+$db = 'sql5524234';
+$user = 'sql5524234';
+$pass = 'kAgG1JhkGD';
 $charset ='utf8mb4';
 
 
