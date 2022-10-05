@@ -19,12 +19,12 @@ include_once 'includes/session.php'?>
     <title>Attendance <?php echo $title?></title>
   </head>
   <body>
-  nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="index.php">IT Conference</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="collapse navbar-container" id="navbarNav">
     <div class="navbar-nav mr-auto">
       <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
        <a class="nav-item nav-link" href="viewrecords.php">View Attendees</a>
@@ -46,8 +46,8 @@ include_once 'includes/session.php'?>
 
   </div>
 </nav>
-<div class="container">
+ <div class="container">
   <!-- Content here -->
 
-  <
+  
 <br>
