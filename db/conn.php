@@ -1,17 +1,17 @@
 <?php 
 //Development Connections
-// $host ='127.0.0.1';
-// $db ='attendance_db';
-// $user ='root';
-// $pass ='';
-// $charset ='utf8mb4';
-
-//remote database connections 
-$host = 'sql5.freemysqlhosting.net';
-$db = 'sql5524234';
-$user = 'sql5524234';
-$pass = 'kAgG1JhkGD';
+$host ='127.0.0.1';
+$db ='attendance_db';
+$user ='root';
+$pass ='';
 $charset ='utf8mb4';
+
+// remote database connections 
+// $host = 'remotemysql.com';
+// $db = 'RvsQH8gKyI';
+// $user = 'RvsQH8gKyI';
+// $pass = 'huVbrJvW6K';
+// $charset ='utf8mb4';
 
 
 
